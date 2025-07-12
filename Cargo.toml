@@ -1,7 +1,16 @@
 [package]
 name = "sourcepile"
-version = "0.1.0"
+version = "0.1.0"        
+authors = ["Griffin McLennan <mclennangriffin@gmail.com>"]
 edition = "2021"
+description = "Flatten a folder of source files into a single annotated dump for LLMs"
+license = "MIT"   
+repository = "https://github.com/griffinmclennan/sourcepile"
+readme = "README.md"
+keywords = ["cli", "source", "dump", "llm", "code"]
+categories = ["command-line-utilities", "development-tools"]
+homepage = "https://github.com/griffinmclennan/sourcepile"
+documentation = "https://docs.rs/sourcepile"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -9,3 +18,4 @@ edition = "2021"
 clap = { version = "4.5", features = ["derive"] }      
 ignore = "0.4"                                         
 anyhow = "1.0"                                         
+
