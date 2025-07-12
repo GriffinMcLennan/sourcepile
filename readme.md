@@ -1,5 +1,9 @@
 # Sourcepile
 
+Inspired by the Elon Musk X post of pasting your entire source code file into grok 4
+
+![Elon Musk X Post](img.png)
+
 Simple cli application that allows you to quickly extract all contents of a folder or path into a single file with file name annotations for easy pasting into LLMs
 
 Sourcepile walks your directory tree and gathers source files then writes them into one text file. Each section is annotated with its path relative to your project root so you know where each snippet came from
@@ -44,5 +48,5 @@ Arguments and options:
 Gather code from a folder named src into demo.txt with a limit of five lines per file
 
 ```bash
-sourcepile src demo.txt --all --ignore-gitignore --max-lines 5
+sourcepile src -o demo.txt --all --ignore-gitignore --max-lines 5
 ```
